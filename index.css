@@ -355,3 +355,44 @@ body {
 .p1_p{
     margin-left: 35%;
 }
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        font-size: 16px;
+    }
+
+    .nbv_info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sections h3 {
+        margin: 10px 0;
+    }
+
+    .img {
+        display: none; 
+    }
+
+    .images_container {
+        width: 90vw;
+    }
+
+    .info_sec,
+    .info_custom,
+    .info_contact_sec {
+        width: 90vw;
+        margin: 5%;
+    }
+
+    
+    .img_custom {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 769px) {
+  
+}
+
