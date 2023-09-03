@@ -115,6 +115,8 @@ body {
 }
 
 
+
+
 /* COMPANIES SECTION */
 .companies_section_container {
     display: flex;
@@ -356,43 +358,162 @@ body {
     margin-left: 35%;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1536px) {
     
-    body {
-        font-size: 16px;
+    .nbv_info {
+        padding: 15px 3%;
+        transition: .2s;
+        
     }
 
+
+}
+
+@media (min-width: 1460px) {
+    .hero_section_container{
+        padding: 0 12%;
+        transition: .2s;
+}
+
+}
+
+
+
+/* CSS existente aquí */
+
+/* Para pantallas pequeñas (máximo 990px de ancho) */
+@media (max-width: 990px) {
     .nbv_info {
+        flex-direction: row;
+    }
+    .sections {
+        position: static;
+        top: auto;
+        right: auto;
+        width: auto;
+        height: auto;
+        background: none;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+        padding: 0;
+    }
+    .sections h3 {
+        margin-left: 10px;
+    }
+    .hero_section_container {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
-
-    .sections h3 {
-        margin: 10px 0;
+    .info_p {
+        margin: 5px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
     }
-
+    .info_p p{
+        margin: 5px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
     .img {
-        display: none; 
+        margin-right: 0;
     }
-
+    .companies_section_container {
+        margin-left: 0;
+    }
+    .prf {
+        margin-left: 0;
+    }
     .images_container {
-        width: 90vw;
+        width: 100%;
+        justify-content: center;
+    }
+    .logo,
+    .logo1,
+    .logo2,
+    .logo3 {
+        margin: 10px;
+    }
+   /* Para pantallas pequeñas (máximo 990px de ancho) */
+
+    .branding_section_container {
+        flex-direction: column-reverse; /* Cambia la dirección de la columna y revierte el orden */
+        align-items: center;
+        text-align: center;
     }
 
-    .info_sec,
-    .info_custom,
-    .info_contact_sec {
-        width: 90vw;
-        margin: 5%;
+    .info_sec {
+        margin-left: 0;
+        text-align: center;
     }
 
-    
+    .img_section {
+        margin-left: 0;
+    }
+
+
+    .custom_section_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .info_custom {
+        margin-left: 0;
+        text-align: center;
+    }
     .img_custom {
         margin-left: 0;
     }
+    .contact_section_container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+       
+    .imgsc_contact {
+        display: none; 
+    }
+
+    .contact_section_container {
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+    }
+
+    .info_contact_sec {
+        margin: 0 auto; 
+    }
+
+    .btn_contact {
+        margin: 20px auto; 
+        
+    }
+
+
+    .footer_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .part1,
+    .part2,
+    .part3,
+    .part4 {
+        margin-right: 0;
+        margin-bottom: 20px;
+        
+    }
+    .p1_h,
+    .p1_p {
+        margin-left: 0;
+        
+    }
 }
 
-@media screen and (min-width: 769px) {
-  
-}
+/* CSS existente aquí */
 
