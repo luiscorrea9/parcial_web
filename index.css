@@ -379,9 +379,7 @@ body {
 
 
 
-/* CSS existente aquí */
 
-/* Para pantallas pequeñas (máximo 990px de ancho) */
 @media (max-width: 990px) {
     .nbv_info {
         flex-direction: row;
@@ -423,6 +421,8 @@ body {
     }
     .companies_section_container {
         margin-left: 0;
+        height: 100px;
+        
     }
     .prf {
         margin-left: 0;
@@ -436,22 +436,32 @@ body {
     .logo2,
     .logo3 {
         margin: 10px;
+        max-width: 100%; 
+        height: 5vh;
     }
-   /* Para pantallas pequeñas (máximo 990px de ancho) */
+   
 
     .branding_section_container {
-        flex-direction: column-reverse; /* Cambia la dirección de la columna y revierte el orden */
+        flex-direction: column-reverse; 
         align-items: center;
         text-align: center;
     }
 
     .info_sec {
+        
         margin-left: 0;
         text-align: center;
+        
     }
 
     .img_section {
         margin-left: 0;
+    }
+    .info_sec h1{
+        font-size: 35px; 
+    }
+    .info_sec p{
+        font-size: 15   px; 
     }
 
 
@@ -461,8 +471,16 @@ body {
         text-align: center;
     }
     .info_custom {
+        font-size: 35px; 
         margin-left: 0;
         text-align: center;
+    }
+    .info_custom h1{
+        font-size: 35px; 
+    }
+    .info_custom p{
+        font-size: 15px; 
+
     }
     .img_custom {
         margin-left: 0;
@@ -514,6 +532,3 @@ body {
         
     }
 }
-
-/* CSS existente aquí */
-
